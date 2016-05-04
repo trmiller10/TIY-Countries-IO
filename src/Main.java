@@ -33,45 +33,46 @@ public class Main {
         // Loop over the contents of the countries file, one line at a time
 
 
-        // read the next line of content from the scanner
+            // read the next line of content from the scanner
 
 
-        // Create a array of Strings variable. Split the line of text we just read into an array of two String values and set it into this variables.
-        // Hint: check out the .split() method on the String class
+            // Create a array of Strings variable. Split the line of text we just read into an array of two String values and set it into this variables.
+            // Hint: check out the .split() method on the String class
 
 
-        // Create a String variable for the abbreviation and set it to the first (0) element in the array we just made
+            // Create a String variable for the abbreviation and set it to the first (0) element in the array we just made
 
 
-        // Create a String variable for the country name and set it to the second (1) element in the array we just made
+            // Create a String variable for the country name and set it to the second (1) element in the array we just made
 
 
-        // Create a new instance of our Country object and set it into a variable named country
+            // Create a new instance of our Country object and set it into a variable named country
 
 
-        // Create a String variable and set it to the first letter from the country name
-        // Hint: check out the substring() method on String
+            // Create a String variable and set it to the first letter from the country name
+            // Hint: check out the substring() method on String
 
 
-        // Update the variable we just created and set it to the lowercase version
-        // Hint: check out toLowerCase() on the String class.
+            // Update the variable we just created and set it to the lowercase version
+            // Hint: check out toLowerCase() on the String class.
 
 
-        // check if our HashMap does NOT have a key for this letter
+            // check if our HashMap does NOT have a key for this letter
 
 
-        // if not, create an empty ArrayList that can hold Country objects
+                // if not, create an empty ArrayList that can hold Country objects
 
 
-        // put this new empty ArrayList into the HashTable at the correct index (IE: the first letter of the country
-        // name. We determined this earlier and stored it in a variable)
+                // put this new empty ArrayList into the HashTable at the correct index (IE: the first letter of the country
+                // name. We determined this earlier and stored it in a variable)
 
 
 
-        // Create a variable of type ArrayList and set it to the ArrayList in the HashMap for the first letter of the country we're working with
+            // Create a variable of type ArrayList and set it to the ArrayList in the HashMap for the first letter of the country we're working with
 
 
-        // Add our current Country object into the ArrayList we just got
+            // Add our current Country object into the ArrayList we just got
+
 
 
         // close the scanner that's reading the countries.txt file
@@ -96,7 +97,7 @@ public class Main {
         // See the "throw" keyword.
 
 
-        // If not, throw an exception
+            // If not, throw an exception
 
 
         // update the existing variable holding the letter, setting it to the lower case version of the letter. (see .toLowerCase())
@@ -120,12 +121,10 @@ public class Main {
         // Hint: use the for-each syntax to loop over this array
 
 
-        // Use the FileWriter instance we just created and write out a line of text to the x_countries.txt file.
-        // This line should contain the abbreviation and name for the current country.
-        // Don't forget to add a line break for each line
-        // Hint: check out the .append() method of FileWriter
-
-
+            // Use the FileWriter instance we just created and write out a line of text to the x_countries.txt file.
+            // This line should contain the abbreviation and name for the current country.
+            // Don't forget to add a line break for each line
+            // Hint: check out the .append() method of FileWriter
 
 
         // close the FileWriter
